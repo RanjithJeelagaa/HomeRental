@@ -1,0 +1,82 @@
+name: homerental
+description: "A house rental Flutter project with Firebase integration."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.9.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # UI
+  cupertino_icons: ^1.0.8
+  google_fonts: ^6.2.1      # For custom fonts
+  font_awesome_flutter: ^10.7.0  # Icons for UI
+
+  # Firebase core
+  firebase_core: ^3.15.2
+  firebase_auth: ^5.7.0
+  cloud_firestore: ^5.6.12
+  firebase_storage: ^12.3.1
+
+  # State management
+  provider: ^6.1.2
+
+  # Image handling
+  image_picker: ^1.1.2
+  cached_network_image: ^3.4.1
+
+  # Maps & location
+  google_maps_flutter: ^2.8.0
+  geolocator: ^12.0.0
+  geocoding: ^3.0.0
+
+  # Utils
+  intl: ^0.19.0     # Date & number formatting
+  uuid: ^4.5.1      # For unique IDs
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/home.jpg
+    - assets/images/role.jpg
+    - assets/images/login.jpg
+    - assets/images/visithome.jpg
+    - assets/images/house1.jpg
+    - assets/images/house2.jpg
+    - assets/images/house3.jpg
+    - assets/images/house4.jpg
+    - assets/images/house5.jpg
+    - assets/images/house6.jpg
+    - assets/images/house7.jpg
+    - assets/images/house8.jpg
+    - assets/images/house9.jpg
+    - assets/images/house10.jpg
+    - assets/images/house11.jpg
+    - assets/images/house12.jpg
+    - assets/images/house13.jpg
+    - assets/images/house14.jpg
+    - assets/images/house15.jpg
+    - assets/images/house16.jpg
+    - assets/images/house17.jpg
+    - assets/images/house18.jpg
+    - assets/images/house19.jpg
+    - assets/images/house20.jpg
+    - assets/icons/
+
+  # Example font setup (you can add your own font files under assets/fonts/)
+  # fonts:
+  #   - family: Poppins
+  #     fonts:
+  #       - asset: assets/fonts/Poppins-Regular.ttf
+  #       - asset: assets/fonts/Poppins-Bold.ttf
+  #         weight: 700
